@@ -4,4 +4,4 @@ python:
 
 # command to run tests
 script:
-  - python tests/test_greet.py
+  - PYTHONPATH=greeter python tests/test_greet.py
