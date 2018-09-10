@@ -3,7 +3,7 @@ import unittest
 from greeter import Greeter
 
 
-class MyTest(unittest.TestCase):
+class GreeterTest(unittest.TestCase):
 
     def test_greet(self):
         greeter = Greeter('World!')
